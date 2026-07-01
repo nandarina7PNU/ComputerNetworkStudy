@@ -11,6 +11,11 @@
 
 인터넷은 수십억 개의 장치들이 서로 연결된 네트워크이다. 여기서 인터넷에 연결된 장치들은 **호스트(host)** 또는 **종단 시스템(end system)** 이라고 부른다.
 
+<img width="608" height="861" alt="image" src="https://github.com/user-attachments/assets/4091ee29-e034-4ee6-8822-ee3a82e98650" />
+
+그림 1-1 : 인터넷의 일부 모습
+
+
 대표적인 종단 시스템은 다음과 같다.
 
 * 데스크톱 컴퓨터
@@ -36,6 +41,10 @@
 
 * **라우터(router)**
 * **링크 계층 스위치(link-layer switch)**
+
+<img width="786" height="390" alt="image" src="https://github.com/user-attachments/assets/6919ce65-1bdb-4b3e-95df-8f3eeba208c2" />
+
+그림 : 패킷과 패킷 스위치
 
 라우터와 스위치는 패킷을 최종 목적지 방향으로 전달한다.
 
@@ -69,6 +78,8 @@ ISP의 예시는 다음과 같다.
 * 대학 ISP
 * 공항, 호텔, 카페의 WiFi 제공자
 * 이동통신사의 셀룰러 데이터망
+
+> 셀룰러 데이터망이란, 기지국이 담당하는 구역(셀)을 촘촘하게 연결해 이동 중에도 끊김 없이 인터넷과 통신을 가능하게 하는 이동통신 네트워크를 의미한다.
 
 각 ISP 자체도 패킷 스위치와 통신 링크로 이루어진 하나의 네트워크이다.
 
@@ -136,6 +147,10 @@ IETF의 표준 문서는 **RFC(Requests for Comments)** 라고 부른다. RFC는
 
 프로토콜은 통신을 수행하기 위한 규칙이다.
 
+<img width="709" height="490" alt="image" src="https://github.com/user-attachments/assets/2e58682e-b8e7-4f4c-bfe2-c0a7c0141760" />
+
+그림 1.2 : 인간 프로토콜과 컴퓨터 프로토콜
+
 사람 사이의 대화에서도 프로토콜이 존재한다. 예를 들어 시간을 물어볼 때 보통 다음과 같은 순서를 따른다.
 
 1. 인사를 한다.
@@ -168,6 +183,10 @@ IETF의 표준 문서는 **RFC(Requests for Comments)** 라고 부른다. RFC는
 
 웹 브라우저에 URL을 입력하면 다음과 같은 일이 일어난다.
 
+<img width="888" height="674" alt="image" src="https://github.com/user-attachments/assets/fd018baf-c38b-4cd0-8de5-29741ccbd202" />
+
+그림 : 웹 서비스 통신 과정
+
 1. 사용자의 컴퓨터가 웹 서버에 연결 요청 메시지를 보낸다.
 2. 웹 서버가 연결 응답 메시지를 보낸다.
 3. 사용자의 컴퓨터가 원하는 웹 페이지를 요청하는 GET 메시지를 보낸다.
@@ -189,3 +208,11 @@ IETF의 표준 문서는 **RFC(Requests for Comments)** 라고 부른다. RFC는
 * 소켓 인터페이스는 프로그램이 인터넷을 통해 데이터를 보내기 위해 사용하는 규칙이다.
 * 프로토콜은 메시지의 형식, 순서, 그리고 송수신 시 동작을 정의한다.
 * 컴퓨터 네트워킹을 이해한다는 것은 결국 다양한 네트워크 프로토콜의 역할, 이유, 동작 방식을 이해하는 것이다.
+
+--- 
+
+## 참고자료
+
+[패킷과 패킷 스위치](https://hongong.hanbit.co.kr/network-%ED%9A%8C%EC%84%A0-%EA%B5%90%ED%99%98-%EB%B0%A9%EC%8B%9D%EA%B3%BC-%ED%8C%A8%ED%82%B7-%EA%B5%90%ED%99%98-%EB%B0%A9%EC%8B%9D/)
+
+[웹 서비스 통신 과정](https://velog.io/@dyunge_100/WEB-%EC%9B%B9-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%9D%98-%ED%86%B5%EC%8B%A0-%EA%B3%BC%EC%A0%95)
